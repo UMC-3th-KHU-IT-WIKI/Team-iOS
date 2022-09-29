@@ -1,0 +1,6 @@
+framework module Pods_UmcWorkbook1week {
+  umbrella header "Pods-UmcWorkbook1week-umbrella.h"
+
+  export *
+  module * { export * }
+}

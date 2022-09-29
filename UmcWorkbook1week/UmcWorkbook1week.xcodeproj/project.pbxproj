@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B26CC6FC1758CBD46F6C9CB /* Pods_UmcWorkbook1week.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C822E2EAB997FED7059FB6 /* Pods_UmcWorkbook1week.framework */; };
+		86608E5D28DC6D04005EBF27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86608E5C28DC6D04005EBF27 /* AppDelegate.swift */; };
+		86608E5F28DC6D04005EBF27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86608E5E28DC6D04005EBF27 /* SceneDelegate.swift */; };
+		86608E6128DC6D04005EBF27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86608E6028DC6D04005EBF27 /* ViewController.swift */; };
+		86608E6428DC6D04005EBF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86608E6228DC6D04005EBF27 /* Main.storyboard */; };
+		86608E6628DC6D05005EBF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86608E6528DC6D05005EBF27 /* Assets.xcassets */; };
+		86608E6928DC6D05005EBF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86608E6728DC6D05005EBF27 /* LaunchScreen.storyboard */; };
+		8670F7B028E55A8800915E6B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670F7AF28E55A8800915E6B /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CCE590B5F63F09D423057F7 /* Pods-UmcWorkbook1week.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmcWorkbook1week.release.xcconfig"; path = "Target Support Files/Pods-UmcWorkbook1week/Pods-UmcWorkbook1week.release.xcconfig"; sourceTree = "<group>"; };
+		86608E5928DC6D04005EBF27 /* UmcWorkbook1week.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UmcWorkbook1week.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86608E5C28DC6D04005EBF27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86608E5E28DC6D04005EBF27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86608E6028DC6D04005EBF27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86608E6328DC6D04005EBF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86608E6528DC6D05005EBF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86608E6828DC6D05005EBF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86608E6A28DC6D05005EBF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8670F7AF28E55A8800915E6B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		93C822E2EAB997FED7059FB6 /* Pods_UmcWorkbook1week.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmcWorkbook1week.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA698ED8260B5F79EE3CADD8 /* Pods-UmcWorkbook1week.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmcWorkbook1week.debug.xcconfig"; path = "Target Support Files/Pods-UmcWorkbook1week/Pods-UmcWorkbook1week.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86608E5628DC6D04005EBF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B26CC6FC1758CBD46F6C9CB /* Pods_UmcWorkbook1week.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB1D45DCD9D200BC7785AE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA698ED8260B5F79EE3CADD8 /* Pods-UmcWorkbook1week.debug.xcconfig */,
+				7CCE590B5F63F09D423057F7 /* Pods-UmcWorkbook1week.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86608E5028DC6D04005EBF27 = {
+			isa = PBXGroup;
+			children = (
+				86608E5B28DC6D04005EBF27 /* UmcWorkbook1week */,
+				86608E5A28DC6D04005EBF27 /* Products */,
+				4BB1D45DCD9D200BC7785AE9 /* Pods */,
+				9AC4C2307C2A0FAD457DA9E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86608E5A28DC6D04005EBF27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86608E5928DC6D04005EBF27 /* UmcWorkbook1week.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86608E5B28DC6D04005EBF27 /* UmcWorkbook1week */ = {
+			isa = PBXGroup;
+			children = (
+				86608E5C28DC6D04005EBF27 /* AppDelegate.swift */,
+				86608E5E28DC6D04005EBF27 /* SceneDelegate.swift */,
+				86608E6028DC6D04005EBF27 /* ViewController.swift */,
+				86608E6228DC6D04005EBF27 /* Main.storyboard */,
+				86608E6528DC6D05005EBF27 /* Assets.xcassets */,
+				86608E6728DC6D05005EBF27 /* LaunchScreen.storyboard */,
+				86608E6A28DC6D05005EBF27 /* Info.plist */,
+				8670F7AF28E55A8800915E6B /* TableViewController.swift */,
+			);
+			path = UmcWorkbook1week;
+			sourceTree = "<group>";
+		};
+		9AC4C2307C2A0FAD457DA9E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93C822E2EAB997FED7059FB6 /* Pods_UmcWorkbook1week.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86608E5828DC6D04005EBF27 /* UmcWorkbook1week */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86608E6D28DC6D05005EBF27 /* Build configuration list for PBXNativeTarget "UmcWorkbook1week" */;
+			buildPhases = (
+				5B61D3C519383051F451A7B4 /* [CP] Check Pods Manifest.lock */,
+				86608E5528DC6D04005EBF27 /* Sources */,
+				86608E5628DC6D04005EBF27 /* Frameworks */,
+				86608E5728DC6D04005EBF27 /* Resources */,
+				3BAB386F3918011771027A78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UmcWorkbook1week;
+			productName = UmcWorkbook1week;
+			productReference = 86608E5928DC6D04005EBF27 /* UmcWorkbook1week.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86608E5128DC6D04005EBF27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					86608E5828DC6D04005EBF27 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 86608E5428DC6D04005EBF27 /* Build configuration list for PBXProject "UmcWorkbook1week" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86608E5028DC6D04005EBF27;
+			productRefGroup = 86608E5A28DC6D04005EBF27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86608E5828DC6D04005EBF27 /* UmcWorkbook1week */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86608E5728DC6D04005EBF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86608E6928DC6D05005EBF27 /* LaunchScreen.storyboard in Resources */,
+				86608E6628DC6D05005EBF27 /* Assets.xcassets in Resources */,
+				86608E6428DC6D04005EBF27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BAB386F3918011771027A78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UmcWorkbook1week/Pods-UmcWorkbook1week-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UmcWorkbook1week/Pods-UmcWorkbook1week-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UmcWorkbook1week/Pods-UmcWorkbook1week-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B61D3C519383051F451A7B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UmcWorkbook1week-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86608E5528DC6D04005EBF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86608E6128DC6D04005EBF27 /* ViewController.swift in Sources */,
+				86608E5D28DC6D04005EBF27 /* AppDelegate.swift in Sources */,
+				86608E5F28DC6D04005EBF27 /* SceneDelegate.swift in Sources */,
+				8670F7B028E55A8800915E6B /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86608E6228DC6D04005EBF27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86608E6328DC6D04005EBF27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86608E6728DC6D05005EBF27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86608E6828DC6D05005EBF27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86608E6B28DC6D05005EBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86608E6C28DC6D05005EBF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86608E6E28DC6D05005EBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA698ED8260B5F79EE3CADD8 /* Pods-UmcWorkbook1week.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UmcWorkbook1week/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josushell.UmcWorkbook1week;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86608E6F28DC6D05005EBF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCE590B5F63F09D423057F7 /* Pods-UmcWorkbook1week.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UmcWorkbook1week/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josushell.UmcWorkbook1week;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86608E5428DC6D04005EBF27 /* Build configuration list for PBXProject "UmcWorkbook1week" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86608E6B28DC6D05005EBF27 /* Debug */,
+				86608E6C28DC6D05005EBF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86608E6D28DC6D05005EBF27 /* Build configuration list for PBXNativeTarget "UmcWorkbook1week" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86608E6E28DC6D05005EBF27 /* Debug */,
+				86608E6F28DC6D05005EBF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86608E5128DC6D04005EBF27 /* Project object */;
+}
